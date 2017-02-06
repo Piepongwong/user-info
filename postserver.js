@@ -39,7 +39,6 @@ app.post('/searchuserhandler', function(req, res) {
 		  for(var i=0;i < objectData.length; i++) {
 	    	
 	    	if(objectData[i]["firstName"] === name) {
-	    		console.log("user found!");
 	    		objectData = [objectData[i]];
 	    		res.render("showsearch", {objectData});
 	    	};
@@ -63,7 +62,7 @@ app.post('/createuserhandler', function(req, res) {
 })
 
 
-var server = app.listen(8087, function() {
+var server = app.listen(3000, function() {
 	var host = server.address().address;
 	var post = server.address().port;
 
