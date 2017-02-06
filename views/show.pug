@@ -1,6 +1,9 @@
 html
-	title
+	head
+		title="Show Users - Cool user system"
 	body
+		include navbar.pug
+
 		h1 Check out my users yaw
 		each user in objectData
 			p #{user.firstName}

@@ -2,9 +2,12 @@ doctype html
 
 html
 	head
-		title="usercreate"
+		title="Create User - Cool user system"
 	body
-		form(method="POST" action="searchuserhandler")
-			input(type="text" name="firstName" value="search user")
-			button(type="submit" value="search") create
+		
+	include navbar.pug
+
+	form(method="POST" action="searchuserhandler")
+		input(type="text" name="firstName" value="search user")
+		button(type="submit" value="search") Search
 			

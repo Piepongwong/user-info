@@ -1,7 +1,13 @@
 html
-	title
+	head
+		title="Show Users - Cool user system"
+
 	body
-		h1 Check out the user I found for ya ass yaw
+
+		include navbar.pug
+
+		br
+
 		each user in objectData
 			p #{user.firstName}
 			p #{user.lastName}
