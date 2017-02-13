@@ -1,0 +1,25 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "json-file-reader.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^3.21.2",
+    "urlencode": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piepongwong/user-info.git"
+  },
+  "author": "Piepongwong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piepongwong/user-info/issues"
+  },
+  "homepage": "https://github.com/Piepongwong/user-info#readme"
+}
