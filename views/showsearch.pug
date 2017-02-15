@@ -7,9 +7,8 @@ html
 		include navbar.pug
 
 		br
-
-		each user in objectData
-			p #{user.firstName}
-			p #{user.lastName}
-			p #{user.email}
-			br
+		
+		p #{objectData.firstName}
+		p #{objectData.lastName}
+		p #{objectData.email}
+		br
