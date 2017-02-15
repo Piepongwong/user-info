@@ -41,7 +41,7 @@ app.post('/searchuserhandler', function(req, res) {
 	reader("./user.json", function(objectData) {
 		for(var i=0;i < objectData.length; i++) {
 	    	if(objectData[i]["firstName"] === name) {
-	    		objectData = objectData[i]; //
+	    		objectData = objectData[i];
 	    		res.render("showsearch", {objectData});
 	    	}
 	    }
